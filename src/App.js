@@ -1,6 +1,7 @@
 import React from 'react'
-import Navbar from './components/Navbar/Navbar.jsx'
+import Navbar from './components/Navbar/Navbar'
 import styles from './App.module.css'
+import Hero from './components/Hero/Hero'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Hero />
       <div className={styles.sectionWrapper}>
       </div>
     </>
